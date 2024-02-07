@@ -1,0 +1,13 @@
+{
+  "name": "vue-ssr-example",
+  "scripts": {
+    "build": "tsup",
+    "qjs": "./qjs ./dist/index.js"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3",
+    "vue": "^3.4.15",
+    "@vue/server-renderer": "^3.4.15"
+  }
+}
