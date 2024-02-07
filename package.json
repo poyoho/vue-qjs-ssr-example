@@ -1,7 +1,7 @@
 {
   "name": "vue-ssr-example",
   "scripts": {
-    "build": "tsup",
+    "build": "tsup && node ./injectProcess.js",
     "qjs": "./qjs ./dist/index.js"
   },
   "devDependencies": {
